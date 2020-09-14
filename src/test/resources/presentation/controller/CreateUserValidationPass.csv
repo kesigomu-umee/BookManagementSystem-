@@ -1,0 +1,5 @@
+comment, inputJson
+"ユーザー名が32文字以下の場合、正常登録できる", "{ ""name"": ""12345678901234567890123456789012"", ""password"": ""password"", ""role"": ""GeneralUser"" }"
+"パスワードが32文字以下の場合、正常登録できる", "{ ""name"": ""user"", ""password"": ""12345678901234567890123456789012"", ""role"": ""GeneralUser"" }"
+"ロールが「Administrator」の場合、正常登録できる", "{ ""name"": ""user"", ""password"": ""password"", ""role"": ""Administrator"" }"
+"ロールが「GeneralUser」の場合、正常登録できる", "{ ""name"": ""user"", ""password"": ""passw   ord"", ""role"": ""GeneralUser"" }"

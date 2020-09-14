@@ -1,0 +1,3 @@
+comment, userid, name, password, role
+"管理者の場合", "00000000-0000-0000-0000-000000000001","admin","password","Administrator"
+"一般利用者の場合", "00000000-0000-0000-0000-000000000002","user","password","GeneralUser"

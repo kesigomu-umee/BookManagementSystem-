@@ -1,0 +1,10 @@
+comment, inputJson
+"ユーザー名が32文字以上の場合バリデーションエラーが発生する", "{ ""name"": ""123456789012345678901234567890123"", ""password"": ""password"", ""role"": ""GeneralUser"" }"
+"ユーザー名が空文字の場合バリデーションエラーが発生する", "{ ""name"": """", ""password"": ""password"", ""role"": ""GeneralUser"" }"
+"ユーザー名がnullの場合バリデーションエラーが発生する", "{ ""name"": null, ""password"": ""password"", ""role"": ""GeneralUser"" }"
+"パスワードが32文字以上の場合バリデーションエラーが発生する", "{ ""name"": ""user"", ""password"": ""123456789012345678901234567890123"", ""role"": ""GeneralUser"" }"
+"パスワードが空文字の場合バリデーションエラーが発生する", "{ ""name"": ""user"", ""password"": """", ""role"": ""GeneralUser"" }"
+"パスワードがnullの場合バリデーションエラーが発生する", "{ ""name"": ""user"", ""password"": null, ""role"": ""GeneralUser"" }"
+"ロールが「Administrator」「GeneralUser」以外の場合バリデーションエラーが発生する", "{ ""name"": ""user"", ""password"": ""password"", ""role"": ""Admin"" }"
+"ロールが空文字の場合バリデーションエラーが発生する", "{ ""name"": ""user"", ""password"": ""password"", ""role"": """" }"
+"ロールがnullの場合バリデーションエラーが発生する", "{ ""name"": ""user"", ""password"": ""password"", ""role"": null }"
